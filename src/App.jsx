@@ -1,12 +1,14 @@
 import Navbar from './components/Navbar'
-import Body from './components/Body'
+import Hero from './components/Hero'
+import Card from './components/Card'
 import './App.css'
 
 function App() {
   return(
     <>
       <Navbar/>
-      <Body/>
+      {/* <Hero/> */}
+      <Card/>
     </>
   )
 }

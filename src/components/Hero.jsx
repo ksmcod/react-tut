@@ -1,7 +1,7 @@
 import heroImage from '../assets/Group82.png'
-export default function Body() {
+export default function Hero() {
     return (
-        <section className='body'>
+        <section className='hero'>
             <img src={heroImage} alt="Hero Image" className='hero-img' />
             <div className="text">
                 <h2>Online Experiences</h2>
