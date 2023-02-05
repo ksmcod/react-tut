@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'poppins';
 }
 
 nav {
@@ -15,4 +16,19 @@ nav {
 
 nav > img {
   max-width: 100px;
+}
+section {
+  padding: 20px 50px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.hero-img {
+  align-self: center; 
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+.text > p {
+  color: grey;
 }
